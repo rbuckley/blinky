@@ -1,0 +1,9 @@
+[submodule "Adafruit-GFX-Library"]
+	path = lib/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library.git
+[submodule "Adafruit_NeoPixel"]
+	path = lib/Adafruit_NeoPixel
+	url = https://github.com/adafruit/Adafruit_NeoPixel.git
+[submodule "Adafruit_NeoMatrix"]
+	path = lib/Adafruit_NeoMatrix
+	url = https://github.com/adafruit/Adafruit_NeoMatrix.git

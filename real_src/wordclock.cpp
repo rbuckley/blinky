@@ -11,38 +11,38 @@ uint16_t mask[12];
 // using masks for each row 16 bit mask which uses the msb as a row index and the
 // next three bytes for the columnn index 
 // TODO only using 3 of 4 bytes, maybe put color information in the first byte 
-#define IT       mask[0] |= 0xC000
-#define IS       mask[0] |= 0x1800
-#define HALF     mask[0] |= 0x03C0
-#define BDAY     mask[1] |= 0xF000
-#define QUARTER  mask[1] |= 0x0FE0
-#define TWENTY   mask[2] |= 0xFC00
-#define MFIVE    mask[2] |= 0x01E0
-#define MTEN     mask[3] |= 0x3800
-#define PAST     mask[3] |= 0x03C0
-#define TO       mask[3] |= 0x0030
-#define TEN      mask[4] |= 0xE000
-#define SIX      mask[4] |= 0x1C00
-#define ONE      mask[4] |= 0x00E0
-#define NINE     mask[5] |= 0xF000
-#define THREE    mask[5] |= 0x01F0
-#define EIGHT    mask[6] |= 0xF800
-#define FIVE     mask[6] |= 0x0780
-#define TWO      mask[6] |= 0x0070
-#define FOUR     mask[7] |= 0x7800
-#define ELEVEN   mask[7] |= 0x03F0
-#define SEVEN    mask[8] |= 0xF800
-#define TWELVE   mask[8] |= 0x03F0
-#define OCLOCK   mask[9] |= 0xFC00
-#define KATIE    mask[9] |= 0x07C0
-#define IN       mask[9] |= 0x0030
+#define IT       mask[0]  |= 0x6000
+#define IS       mask[0]  |= 0x1800
+#define HALF     mask[0]  |= 0x03C0
+#define BDAY     mask[1]  |= 0xF000
+#define QUARTER  mask[1]  |= 0x0FE0
+#define TWENTY   mask[2]  |= 0xFC00
+#define MFIVE    mask[2]  |= 0x01E0
+#define MTEN     mask[3]  |= 0x3800
+#define PAST     mask[3]  |= 0x03C0
+#define TO       mask[3]  |= 0x0030
+#define TEN      mask[4]  |= 0xE000
+#define SIX      mask[4]  |= 0x1C00
+#define ONE      mask[4]  |= 0x00E0
+#define NINE     mask[5]  |= 0xF000
+#define THREE    mask[5]  |= 0x01F0
+#define EIGHT    mask[6]  |= 0xF800
+#define FIVE     mask[6]  |= 0x0780
+#define TWO      mask[6]  |= 0x0070
+#define FOUR     mask[7]  |= 0x7800
+#define ELEVEN   mask[7]  |= 0x03F0
+#define SEVEN    mask[8]  |= 0xF800
+#define TWELVE   mask[8]  |= 0x03F0
+#define OCLOCK   mask[9]  |= 0xFC00
+#define KATIE    mask[9]  |= 0x07C0
+#define IN       mask[9]  |= 0x0030
 #define THE      mask[10] |= 0xE000
 #define MORNING  mask[10] |= 0X0Fe0
-#define EVENING  mask[11] |= 0x7F00
-#define MONE     mask[11] |= 0x0080
-#define MTWO     mask[11] |= 0x00C0
-#define MTHREE   mask[11] |= 0x00E0  
-#define MFOUR    mask[11] |= 0x00F0  
+#define EVENING  mask[11] |= 0x1FC0
+#define MONE     mask[0]  |= 0x8000
+#define MTWO     mask[0]  |= 0x0010
+#define MTHREE   mask[11] |= 0x8000  
+#define MFOUR    mask[11] |= 0x0010  
 
 // define pins
 #define NEOPIN 6  // connect to DIN on NeoMatrix 8x8
@@ -50,7 +50,7 @@ uint16_t mask[12];
 //#define RTCPWR A3 // use this as DS1307 breakout power  TODO
 
 // define delays
-#define FLASHDELAY 250  // delay for startup "flashWords" sequence
+#define FLASHDELAY 500  // delay for startup "flashWords" sequence
 #define SHIFTDELAY 100   // controls color shifting speed
 
 int j;   // an integer for the color shifting effect
@@ -83,7 +83,7 @@ void setup(void)
 
    //  setTime(__TIME__);
    matrix.begin();
-   matrix.setBrightness(50);
+   matrix.setBrightness(255);
 }
 
 void loop(void) 
@@ -92,10 +92,11 @@ void loop(void)
 
    matrix.fillScreen(0); // Initialize all pixels to 'off'
    matrix.show();
-   //flashWords(); // briefly flash each word in sequence
+   flashWords(); // briefly flash each word in sequence
    //  adjustBrightness();
    //  displayTime();
 
+  // rainbowCycle(20);
    //mode_moon(); // uncomment to show moon mode instead!
 }
 
@@ -131,15 +132,15 @@ void rainbowCycle(uint8_t wait) {
 
    uint16_t i, j;
 
-   //for (j = 0; j < 256 * 5; j++) { // 5 cycles of all colors on wheel
-   for (i = 0; i < matrix.numPixels(); i++) {
-      Serial.print("Pixel = ");
-      Serial.println(i);
-      matrix.setPixelColor(i, Wheel(((i * 256 / matrix.numPixels()) + j) & 255));
-      matrix.show();
-      delay(wait);
+   for (j = 0; j < 256 * 5; j++) { // 5 cycles of all colors on wheel
+      for (i = 0; i < matrix.numPixels(); i++) {
+         Serial.print("Pixel = ");
+         Serial.println(i);
+         matrix.setPixelColor(i, Wheel(((i * 256 / matrix.numPixels()) + j) & 255));
+         matrix.show();
+         delay(wait);
+      }
    }
-   // }
 }
 
 // show colorshift through the phrase mask. for each NeoPixel either show a color or show nothing!
@@ -156,7 +157,7 @@ void applyMask() {
                matrix.drawPixel(col, row, 0);
                break;
             case 1:
-//               matrix.drawPixel(col, row, Wheel(((col * 256 / matrix.numPixels()) + j) & 255));
+              // matrix.drawPixel(col, row, Wheel(((col * 256 / matrix.numPixels()) + j) & 255));
                matrix.drawPixel(col, row, 255);
                break;
          }
@@ -270,7 +271,7 @@ void flashWords(void) {
    THE;
    applyMask();
    delay(FLASHDELAY);
-   
+
    MORNING;
    applyMask();
    delay(FLASHDELAY);
@@ -283,14 +284,20 @@ void flashWords(void) {
    applyMask();
    delay(FLASHDELAY);
 
+   MONE;
    MTWO;
    applyMask();
    delay(FLASHDELAY);
 
+   MONE;
+   MTWO;
    MTHREE;
    applyMask();
    delay(FLASHDELAY);
 
+   MONE;
+   MTWO;
+   MTHREE;
    MFOUR;
    applyMask();
    delay(FLASHDELAY);

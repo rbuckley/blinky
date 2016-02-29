@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg3346"
+   viewBox="0 0 1568.2677 1566.4961"
+   height="442.10001mm"
+   width="442.60001mm"
+   sodipodi:docname="clockface.svg"
+   style="enable-background:new"
+   inkscape:export-filename="C:\Users\buckler1\Desktop\other\qlock-katie-noborder.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1672"
+     inkscape:window-height="1028"
+     inkscape:window-width="1617"
+     showguides="true"
+     showgrid="true"
+     inkscape:current-layer="g7529"
+     inkscape:document-units="mm"
+     inkscape:cy="719.45998"
+     inkscape:cx="435.55716"
+     inkscape:zoom="0.49497475"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false"
+     inkscape:bbox-paths="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-others="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     borderlayer="false">
+    <inkscape:grid
+       id="grid3354"
+       type="xygrid"
+       originx="86.633858"
+       originy="1306.5945"
+       spacingx="58.127953"
+       spacingy="58.057087"
+       empspacing="2" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3348" />
+  <metadata
+     id="metadata3351">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Grid_Polar:X12:Y12"
+     transform="translate(1530.5008,64.950733)"
+     id="g3601">
+    <g
+       inkscape:label="Grid_Polar:X12:Y12"
+       transform="translate(26.741479,29.144275)"
+       id="g3806" />
+  </g>
+  <g
+     id="g5640"
+     transform="translate(1764.4139,68.425613)"
+     inkscape:label="Grid_Polar:X12:Y12">
+    <g
+       inkscape:label="Grid_Polar:X12:Y12"
+       transform="translate(-197.59765,31.496354)"
+       id="g5733" />
+  </g>
+  <g
+     id="g7008"
+     transform="translate(1495.6564,66.610943)"
+     inkscape:label="Grid_Polar:X12:Y12" />
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Background"
+     transform="translate(1559.9708,429.67059)"
+     style="display:inline;opacity:1">
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.05766821"
+       id="rect7591"
+       width="1599.3524"
+       height="1597.3202"
+       x="-1575.4424"
+       y="-445.91522" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Letters"
+     style="display:inline"
+     transform="translate(0,173.26767)">
+    <g
+       id="g7529"
+       style="fill:#ffffff"
+       transform="translate(86.63383,-87.53736)">
+      <text
+         sodipodi:linespacing="103%"
+         id="text10123"
+         y="205.74257"
+         x="-1471.5153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:102.99999714%;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;letter-spacing:29.36000061px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         transform="translate(1495.6564,-106.65672)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="205.74257"
+           x="-1471.5153"
+           id="tspan10125"
+           sodipodi:role="line"> ITBISHALFS </tspan><tspan
+           id="tspan3371"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="321.61755"
+           x="-1471.5153"
+           sodipodi:role="line">BDAYQUARTERN</tspan><tspan
+           id="tspan3373"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="437.49255"
+           x="-1471.5153"
+           sodipodi:role="line">TWENTYPFIVER</tspan><tspan
+           id="tspan3375"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="553.36755"
+           x="-1471.5153"
+           sodipodi:role="line">TETENFPASTTO</tspan><tspan
+           id="tspan3377"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="669.24255"
+           x="-1471.5153"
+           sodipodi:role="line">TENSIXYLONEB</tspan><tspan
+           id="tspan3379"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="785.11755"
+           x="-1471.5153"
+           sodipodi:role="line">NINEAMMTHREE</tspan><tspan
+           id="tspan3381"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="900.99255"
+           x="-1471.5153"
+           sodipodi:role="line">EIGHTFIVETWO</tspan><tspan
+           id="tspan3383"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="1016.8676"
+           x="-1471.5153"
+           sodipodi:role="line">PFOURLELEVEN</tspan><tspan
+           id="tspan3385"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84000015px;word-spacing:0px;fill:#ffffff"
+           y="1132.7426"
+           x="-1471.5153"
+           sodipodi:role="line">SEVENITWELVE</tspan><tspan
+           dx="0 0"
+           id="tspan3387"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:56px;word-spacing:0px;fill:#ffffff"
+           y="1248.6176"
+           x="-1471.5153"
+           sodipodi:role="line"><tspan
+             id="tspan3399"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:-25px;fill:#ffffff">O</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:6.88000011px;fill:#ffffff"
+             id="tspan3835">'</tspan><tspan
+             id="tspan7144"
+             style="line-height:102.99999714%;letter-spacing:48.84999847px;fill:#ffffff">CLOCKATIEIN</tspan></tspan><tspan
+           id="tspan3389"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84999847px;word-spacing:0px;fill:#ffffff"
+           y="1364.4926"
+           x="-1471.5153"
+           sodipodi:role="line">THEKMORNINGJ</tspan><tspan
+           dy="0 0 0 0 0 0 0 0 0 0 0"
+           id="tspan3391"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.5px;line-height:102.99999714%;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono';letter-spacing:48.84999847px;word-spacing:0px;fill:#ffffff"
+           y="1480.3676"
+           x="-1471.5153"
+           sodipodi:role="line"> DSEVENINGO </tspan></text>
+      <circle
+         r="20"
+         cy="1441.9697"
+         cx="-158.71349"
+         id="path7445"
+         style="fill:#ffffff"
+         transform="translate(1495.6564,-106.65672)" />
+      <circle
+         r="20"
+         cy="164.71381"
+         cx="-158.71349"
+         id="path7445-1"
+         style="fill:#ffffff"
+         transform="translate(1495.6564,-106.65672)" />
+      <circle
+         r="20"
+         cy="1441.9697"
+         cx="-1437.5284"
+         id="path7445-4"
+         style="fill:#ffffff"
+         transform="translate(1495.6564,-106.65672)" />
+      <circle
+         r="20"
+         cy="164.71381"
+         cx="-1437.5284"
+         id="path7445-44"
+         style="fill:#ffffff"
+         transform="translate(1495.6564,-106.65672)" />
+    </g>
+  </g>
+</svg>
